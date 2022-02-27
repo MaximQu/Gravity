@@ -1,0 +1,1 @@
+$(".burger").on("click",(()=>{$(".nav").toggleClass("active")})),$(window).on("scroll",(function(){$(window).scrollTop()<300?$(".header").removeClass("fixed"):$(".header").addClass("fixed")}));
